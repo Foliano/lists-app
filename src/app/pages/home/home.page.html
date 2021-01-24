@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lista zadań</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="ion-padding">
+    <div id="statePlace" *ngIf="!lists.length" routerLink="/add-list">
+      <ion-icon name="create-outline"></ion-icon>
+    </div>
+    <ion-col class="ion-no-padding" size="6" *ngFor="let list of lists">
+      <ion-card [routerLink]="'/list/' + list.id">
+        <ion-card-header>
+          <ion-card-title [innerText]="list.title"></ion-card-title>
+        </ion-card-header>
+        <ion-card-content [innerText]="list.description"></ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

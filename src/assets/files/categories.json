@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "mięso"
+  },
+  {
+    "id": "2",
+    "name": "nabiał"
+  },
+  {
+    "id": "3",
+    "name": "napoje"
+  },
+  {
+    "id": "4",
+    "name": "warzywa"
+  },
+  {
+    "id": "5",
+    "name": "słodycze"
+  },
+  {
+    "id": "6",
+    "name": "owoce"
+  },
+  {
+    "id": "7",
+    "name": "przekąski"
+  },
+  {
+    "id": "8",
+    "name": "produkty zbożowe"
+  }
+]
